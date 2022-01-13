@@ -20,7 +20,7 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
 
     city = input("Please input city name, chicago, new york city or washington? \nIf you would like more than one city, please sepereate your list with a comma: ").lower()
-    while city not in ['chicago', 'new york city', 'washington']:
+    while city not in CITY_DATA:
         city = input("City name is invalid, please input a valid City: ").lower()
 
 
