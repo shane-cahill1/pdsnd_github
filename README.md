@@ -12,5 +12,6 @@ In this project we are using our local and remote repository's to make changes t
 Git commands documetation template
 
 ### Credits
-Useful Markdown Guide from Github - https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+
 
