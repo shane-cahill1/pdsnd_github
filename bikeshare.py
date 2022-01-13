@@ -107,8 +107,8 @@ def station_stats(df):
     print("For the selected filters, the most common end station is: ", most_common_end_station)
 
 
-    most_common_start_end_combo = (df['Start Station'] + ' + ' + df['End Station']).mode().values[0]
-    print("For the selected filters, the most frequent start and end stations are: ", most_common_start_end_combo)
+    most_popular_trip = df.groupby(['Start Station', 'End Station']).size().idxmax()
+    print("For the selected filters, the most popular start and end stations are: ", most_popular_trip)
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
